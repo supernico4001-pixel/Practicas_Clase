@@ -22,33 +22,33 @@
 
   /* ---- 1. COLOR DE FONDO GENERAL ----
      El fondo de la página y de las secciones "normales". */
-  --color-fondo: #fcfaf6;
+  --color-fondo: #2b292c;
 
   /* ---- 2. COLOR DE FONDO ALTERNO ----
      Para secciones que quieres diferenciar del fondo general
      (ver clase .seccion--alterna en el HTML). */
-  --color-fondo-alterno: #F0EBE1;
+  --color-fondo-alterno: #0a12854b;
 
   /* ---- 3. COLOR DE FONDO DE BLOQUES / TARJETAS ----
      El fondo de las tarjetas de producto y del bloque destacado. */
-  --color-bloque: #FFFFFF;
+  --color-bloque: #fa824c;
   --color-bloque-borde: #E4DCCB;
 
   /* ---- 4. COLOR DE TEXTO ----
      Texto principal y texto secundario (más apagado, para descripciones). */
-  --color-texto: #2B2620;
-  --color-texto-secundario: #6B6255;
+  --color-texto: #fafffd;
+  --color-texto-secundario: #94ff19;
 
   /* ---- 5. COLOR DE BOTONES ----
      Botón primario (la acción principal) y su estado al pasar el ratón,
      más el botón secundario (acción menos importante). */
-  --color-boton-primario: #2F6F4F;
-  --color-boton-primario-hover: #24573E;
+  --color-boton-primario: #0e0d0d;
+  --color-boton-primario-hover: #a18f06;
   --color-boton-texto: #FFFFFF;
 
   --color-boton-secundario: transparent;
-  --color-boton-secundario-borde: #2B2620;
-  --color-boton-secundario-texto: #2B2620;
+  --color-boton-secundario-borde: #fafffd;
+  --color-boton-secundario-texto: #06bee1;
 
   /* ---- 6. COLOR DE ACENTO ----
      Úsalo con moderación: un detalle, no todo el fondo. Aquí se usa en el
@@ -76,8 +76,8 @@
         recurso (como Arial o Helvetica).
      Si cambias de tipografía, actualiza también el <link> de Google Fonts
      en el <head> de index.html. */
-  --font-titulos: 'Fraunces', Georgia, serif;
-  --font-cuerpo: 'Inter', system-ui, sans-serif;
+  --font-titulos: 'Montserrat', Georgia, serif;
+  --font-cuerpo: 'Open-sans', system-ui, sans-serif;
 
   /* Tamaño base del texto; los demás tamaños están definidos en "em",
      así que cambiar este valor escala toda la tipografía proporcionalmente. */

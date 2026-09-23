@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Server Games — Plantilla de práctica</title>
+
+  <!-- Tipografías de Google Fonts: cambia estos nombres por otras que quieras
+       probar. Busca más en https://fonts.google.com y sustituye tanto el
+       enlace de aquí como las variables --font-heading / --font-body en
+       styles.css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ===================== CABECERA ===================== -->
+  <header class="cabecera">
+    <div class="contenedor cabecera__interior">
+      <p class="marca">Server Games</p>
+        <nav class="navegacion" aria-label="Navegación principal">
+          <ul>
+            <li><a href="#productos">Juegos</a></li>
+            <li><a href="#nosotros">Ayuda</a></li>
+            <li><a href="#contacto">Iniciar sesión</a></li>
+          </ul>
+        </nav>      
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="contenedor hero__contenido">
+        <h1>Los mejores juegos en línea</h1>
+        <p class="hero__texto">
+          Ofrecemos juegos de todas las clases y los tipos para
+          garantizar una experiencia entretenida y apta para
+          todos los públicos.
+        </p>
+        <div class="hero__acciones">
+          <button class="boton boton--primario">Ver todos los juegos</button>
+          <button class="boton boton--secundario">Categorías</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BLOQUES / TARJETAS ===================== -->
+    <section id="productos" class="seccion seccion--alterna">
+      <div class="contenedor">
+        <h2>Los recomendados de esta semana</h2>
+        <div class="rejilla-tarjetas">
+
+          <article class="tarjeta">
+            <h3>Car Pro Race</h3>
+            <p>
+              Las mejores carreras a tu alcance. Únete con tus amigos
+              gracias al modo cooperativo.
+            </p>
+            <button class="boton boton--primario">Jugar</button>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Stealth Kill 2</h3>
+            <p>
+              Pon a prueba tus mejores habilidades de sigilo en esta
+              trepidante aventura con más de 50 niveles.
+            </p>
+            <button class="boton boton--primario">Jugar</button>
+          </article>
+
+          <article class="tarjeta">
+            <h3>War Frontline</h3>
+            <p>
+              Conviértete en un señor de la guerra en esta desafiante
+              prueba contra las fuerzas de élite de la armada enemiga.
+            </p>
+            <button class="boton boton--primario">Jugar</button>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE NOSOTROS ===================== -->
+    <section id="nosotros" class="seccion">
+      <div class="contenedor seccion__dos-columnas">
+        <div>
+          <h2>Sobre nosotros</h2>
+          <p>
+            Somos un obrador familiar con más de veinte años de oficio.
+            Creemos en los tiempos largos de fermentación y en trabajar con
+            productores de la zona.
+          </p>
+        </div>
+        <aside class="destacado">
+          <p>
+            &ldquo;"Si los mejores juegos en línea quieres, ven a server games".&rdquo;
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section id="contacto" class="seccion seccion--alterna">
+      <div class="contenedor seccion--centrada">
+        <h2>Nuevos juegos cada semana</h2>
+        <p>No te los pierdas</p>
+        <button class="boton boton--primario">Volver arriba</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer class="pie">
+    <div class="contenedor">
+      <p>&copy; 2026 Server Games. Plantilla de práctica de diseño web.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
